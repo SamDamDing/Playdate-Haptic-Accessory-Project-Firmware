@@ -10,15 +10,15 @@ The Teensy listens to prints over Serial from the Playdate, parses them, and dri
 
 For example,
 
-`AT+WAVEFORM=0:1,1:3,2:5` 
+`AT+WAVEFORM=0,1:1,3:2,5` 
 
 Plays the sequence:
 
-`Strong Click - 100%` set in `Slot 0`
+`Effect ID: 1 - Strong Click - 100%` set in `Slot 0`
 
-`Strong Click - 30%` set in `Slot 1`
+`Effect ID: 3 - Strong Click - 30%` set in `Slot 1`
 
-`Sharp Click - 60%` set in `Slot 2`
+`Effect ID: 5 - Sharp Click - 60%` set in `Slot 2`
 
 # Playing the Waveform Sequence
 `AT+GO` plays the waveform
